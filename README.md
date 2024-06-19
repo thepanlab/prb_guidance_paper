@@ -3,7 +3,7 @@
 Code for the accepted paper in Communication Engineering.
 
 ## Dataset
-The dataset will be pushed and made public in zenodo. Link will be provided.
+The dataset is on Zenodo: https://zenodo.org/records/12170637, more kidneys will pe provided in the future.
 
 ## Stages of training:
 1. 5-fold cross-validaiton for CNN architectures and hyperparameters selection. InceptionV3 and ResNet50 were chosen.
