@@ -1,0 +1,32 @@
+{
+    "hyperparameters": {
+        "batch_size": 32,
+        "channels": 1,
+        "cropping_position": [40, 10],
+        "decay": 0.01,
+        "do_cropping": false,
+        "epochs": 5,
+        "learning_rate": 0.01,
+        "momentum": 0.9
+    },
+
+    "data_input_directory":"../data/sample",
+    "output_path": "../results/training_TEST_OUTER",
+    "job_name": "changeme_outer_loop",
+    
+    "k_epoch_checkpoint_frequency": 5,
+
+    "shuffle_the_images": true,
+    "shuffle_the_folds": true,
+    "seed": 9,
+    
+    "class_names": ["cortex", "medulla", "calyx", "fat", "tumor", "pelvis"],
+    "selected_model_name": "InceptionV3",
+    
+    "subject_list": ["AIKS388-left", "AILU486-right", "AJBH331-left", "AIJV450-right", "AILY469-left"],
+    "test_subjects": ["AJBH331-left"],
+    
+    "image_size": [350, 217],
+	"target_height": 350,
+    "target_width": 217
+}
