@@ -1,6 +1,7 @@
 # Automatic renal carcinoma biopsy guidance using forward-viewing endoscopic optical coherence tomography and deep learning
 
 Code for the accepted paper in Communications Engineering.
+The paper can be found in this link: https://www.nature.com/articles/s44172-024-00254-9
 
 ## Dataset
 The dataset is on Zenodo: https://zenodo.org/records/12170637, more kidneys will pe provided in the future.
